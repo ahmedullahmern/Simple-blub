@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.desine{
+    margin-top: 30px;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.offblub{
+    margin-top: 60px;
+    border-radius: 10px;
+    display: block;
+}
+.onblub{
+    margin-top: 60px;
+    border-radius: 10px;
+    display: none;
+}
+
+.off,.on{
+    border: #fff solid 1px;
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    pad: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.off{
+    background-color: red;
+}
+.on{
+    background-color: green;
+}
